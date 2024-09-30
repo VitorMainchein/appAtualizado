@@ -25,6 +25,9 @@ const Home = () => {
                 <Link href='/splashScreen' style={styles.link}>
                     <Text style={styles.linkText}>Splash Screen</Text>
                 </Link>
+                <Link href='/ifome' style={styles.link}>
+                    <Text style={styles.linkText}>Ifome</Text>
+                </Link>
             </View>
         </View>
     );
