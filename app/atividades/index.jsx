@@ -28,6 +28,9 @@ const Home = () => {
                 <Link href='/ifome' style={styles.link}>
                     <Text style={styles.linkText}>Ifome</Text>
                 </Link>
+                <Link href='/camera' style={styles.link}>
+                    <Text style={styles.linkText}>Camera</Text>
+                </Link>
             </View>
         </View>
     );
@@ -38,13 +41,13 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#F0F4F8', // Light background color
+        backgroundColor: '#F0F4F8', 
         padding: 20,
     },
     title: {
         fontSize: 24,
         fontWeight: 'bold',
-        color: '#2C3E50', // Darker color for the title
+        color: '#2C3E50', 
         marginBottom: 20,
     },
     linksContainer: {
@@ -56,13 +59,13 @@ const styles = StyleSheet.create({
         paddingVertical: 12,
         paddingHorizontal: 20,
         borderRadius: 8,
-        backgroundColor: '#3498DB', // Button color
-        width: '80%', // Decreased width of buttons
+        backgroundColor: '#3498DB', 
+        width: '80%', 
         alignItems: 'center',
     },
     linkText: {
         fontSize: 14,
-        color: '#FFFFFF', // White text color for contrast
+        color: '#FFFFFF', 
     },
 });
 
